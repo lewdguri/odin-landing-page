@@ -1,4 +1,4 @@
-# odin-layout
+# odin-landing-page
 This project will contain the following:
 - html
 - css styling
