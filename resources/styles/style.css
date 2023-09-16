@@ -1,0 +1,233 @@
+/* Color and Fonts*/
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.footer {
+    color: #E5E7EB;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero h1 {
+    font-size: 48px; 
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.hero p, .header-links {
+    font-size: 14px;
+    color: #E5E7EB;
+}
+
+.button, .sign-up {
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    background-color: #3882F6;
+}
+
+.members h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-content h3 {
+    font-style: normal;
+    font-size: 20px;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Header and Hero */
+
+* {
+    margin: 0px;
+}
+
+body {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 150px 80px;
+    gap: 80px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header-logo img {
+    width: 25px;
+    height: 25px;
+}
+
+.header-links {
+    display: flex;
+    gap: 40px;
+}
+
+.header-links ul {
+    list-style-type: none;
+    display: flex;
+    gap: 18px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    
+    width: 45%;
+    gap: 20px;
+}
+
+.hero img {
+    height: auto;
+    width: 500px;
+}
+
+.button {
+    border-radius: 7px;
+    padding: 5px;
+    width: fit-content;
+}
+
+/* Members */
+
+.members {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.cards-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 25px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    
+    width: fit-content;
+    height: fit-content;
+}
+
+.card img {
+    border-radius: 15px;
+    border: 4px solid #3882F6;
+
+    width: 160px;
+    height: auto;
+}
+
+/* Quote */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    width: 100%;
+    height: 200px;
+}
+
+.quote-content h3 {
+    text-align: right;
+}
+
+/* Sign-up */
+
+.sign-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+    margin: 70px auto;
+    padding: 30px 150px;
+    border-radius: 8px;
+}
+
+.sign-up .button {
+    border: white solid 2px;
+    height: fit-content;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+
+/* Other */
+
+.button:hover, .header-links:hover{
+    cursor: pointer;
+}
